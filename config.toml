@@ -1,0 +1,87 @@
+baseURL = "https://www.kausikdas.com"
+languageCode = "en-us"
+DefaultContentLanguage = "en-us"
+title = "Kausik Das"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[params]
+title = "Kausik Das"
+author = "Kausik Das"
+description = "Full-Stack Web & Software Developer"
+profilePicture = "images/profile.jpeg"
+keywords = ["Kausik Das", "Kausik", "software developer", "web developer", "freelancer", "saas developer", "programming", "python", "open source"]
+favicon = "favicons/"
+customCss = []
+customJs = []
+mainSections = ["blog"]
+images = []
+# Google Site Verification
+#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://www.github.com/ikausik"
+
+[[params.socialIcons]]
+icon = "fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/ikausik"
+
+[[params.socialIcons]]
+icon = "fa-twitter"
+title = "Twitter"
+url = "https://www.twitter.com/kausik47"
+
+## [[params.socialIcons]]
+## icon = "fa-linkedin"
+## title = "Linkedin"
+## url = "https://www.linkedin.com/in/ikausik"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:kausik@kausikdas.com"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 200
+  identifier = "blog"
+  url = "/blog/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Services"
+  weight = 400
+  identifier = "services"
+  url = "https://www.kdintelligent.com"

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{- site.Language.Lang -}}" data-theme="{{- .Site.Params.displayMode -}}">
+    {{- partial "head.html" . -}}
+    <body>
+
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0&appId=1639470196142396&autoLogAppEvents=1" nonce="vMv2bAph"></script>
+
+        {{- partial "sidebar.html" . -}}
+        <div class="main">
+            {{ partial "navbar.html" . }}
+            <div class="autopagerize_page_element">
+                <div class="content">
+                    {{- block "main" . }}{{- end }}
+                </div>
+            </div>
+        </div>
+
+        {{- partial "footer.html" . -}}
+    </body>
+
+</html>
