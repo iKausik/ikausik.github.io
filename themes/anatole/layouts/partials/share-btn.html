@@ -4,11 +4,11 @@
 
 <div id="sharing">
 
-  <a data-href="https:{{ .Permalink | absURL }}" href="https://www.facebook.com/sharer/sharer.php?url={{ $url }}&text={{ $title }}&via={{with .Site.Social.facebook }}{{ . }}{{ end }}" class="facebook-icon" aria-label="share on Facebook" target="_blank">
+  <a data-href="https://www.kausikdas.com{{ .URL }}" href="https://www.facebook.com/sharer/sharer.php?u={{ $url }}&text={{ $title }}&amp;src=sdkpreparse" class="facebook-icon" aria-label="share on Facebook" target="_blank">
     <img src="/svg/facebook.svg" alt="Facebook" width="32px" height="32px" srcset=""/>
   </a>
 
-  <a href="https://twitter.com/share?url={{ $url }}&text={{ $title }}&via={{with .Site.Social.twitter }}{{ . }}{{ end }}" class="twitter-icon" aria-label="share on Twitter" target="_blank">
+  <a href="https://twitter.com/share?url={{ $url }}&text={{ $title }}" class="twitter-icon" aria-label="share on Twitter" target="_blank">
     <img src="/svg/twitter.svg" alt="Twitter" width="32px" height="32px" srcset=""/>
   </a>
   
@@ -16,18 +16,18 @@
     <img src="/svg/linkedin.svg" alt="Linkedin" width="32px" height="32px" srcset=""/>
   </a>
   
-  <a href="https://reddit.com/submit?url={{ $url }}&text={{ $title }}&via={{with .Site.Social.reddit }}{{ . }}{{ end }}" class="reddit-icon" aria-label="share on Reddit" target="_blank">
+  <a href="https://reddit.com/submit?url={{ $url }}&title={{ $title }}" class="reddit-icon" aria-label="share on Reddit" target="_blank">
     <img src="/svg/reddit.svg" alt="Reddit" width="32px" height="32px" srcset=""/>
   </a>
   
-  <a href="https://api.whatsapp.com/send?text={{ $title }}&url={{ $url }}&via={{with .Site.Social.whatsapp }}{{ . }}{{ end }}" class="whatsapp-icon" aria-label="share on Whatsapp" target="_blank">
+  <a href="https://api.whatsapp.com/send?text={{ $title }}%20{{ $url }}" class="whatsapp-icon" aria-label="share on Whatsapp" target="_blank">
     <img src="/svg/whatsapp.svg" alt="Whatsapp" width="32px" height="32px" srcset=""/>
   </a>
-  
-  <a href="https://messenger.com/send?url={{ $url }}&text={{ $title }}&via={{with .Site.Social.messenger }}{{ . }}{{ end }}" class="messenger-icon" aria-label="share on Messenger" target="_blank">
+<!--
+  <a href="https://www.facebook.com/dialog/send?app_id=1639470196142396&link={{ $url }}&title={{ $title }}" class="messenger-icon" aria-label="share on Messenger" target="_blank">
     <img src="/svg/messenger.svg" alt="Messenger" width="32px" height="32px" srcset=""/>
   </a>
-
+-->
   <a href="https://telegram.me/share?url={{ $url }}&text={{ $title }}&via={{with .Site.Social.telegram }}{{ . }}{{ end }}" class="telegram-icon" aria-label="share on Telegram" target="_blank">
     <img src="/svg/telegram.svg" alt="Telegram" width="32px" height="32px" srcset=""/>
   </a>
@@ -37,23 +37,3 @@
   </a>
 
 </div>
-
-<!--
-
-All share links from addthis share buttons
-
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-via="kausik47" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<div class="fb-share-button" data-href="https://www.kausikdas.com/blog/python-os-module-explained/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.kausikdas.com%2Fblog%2Fpython-os-module-explained%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-
-
-https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.addthis.com%2Fsocial-buttons%2Flinkedin-button%2F%23.X2Rx0kHdrmA.linkedin
-
-
-https://www.reddit.com/submit?url=https%3A%2F%2Fwww.addthis.com%2Fsocial-buttons%2Freddit%2F%23.X2RyWH0f5kM.reddit&title=Reddit%20Button%20-%20Social%20Buttons%20-%20AddThis
-
-https://api.whatsapp.com/send?text=WhatsApp%20Share%20Button%20%7C%20Social%20Buttons%20-%20AddThis%20https%3A%2F%2Fwww.addthis.com%2Fsocial-buttons%2Fwhatsapp-button%2F%23.X2Rys_0DV84.whatsapp
-
-https://www.facebook.com/dialog/send?app_id=140586622674265&link=https%3A%2F%2Fwww.addthis.com%2Fsocial-buttons%2Ffacebook-messenger-button%2F%23.X2RzTj8tHpM.messenger&redirect_uri=https%3A%2F%2Fwww.addthis.com%2Fmessengerredirect
--->
