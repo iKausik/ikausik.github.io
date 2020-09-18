@@ -1,5 +1,5 @@
 {{ $title := .Title }}
-{{ $url := printf "https:%s" .Permalink | absURL }}
+{{ $url := printf "https://www.kausikdas.com%s" .URL }}
 {{ $body := print $title ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
 
 <div id="sharing">
@@ -20,7 +20,7 @@
     <img src="/svg/reddit.svg" alt="Reddit" width="32px" height="32px" srcset=""/>
   </a>
   
-  <a href="https://api.whatsapp.com/send?url={{ $url }}&text={{ $title }}&via={{with .Site.Social.whatsapp }}{{ . }}{{ end }}" class="whatsapp-icon" aria-label="share on Whatsapp" target="_blank">
+  <a href="https://api.whatsapp.com/send?text={{ $title }}&url={{ $url }}&via={{with .Site.Social.whatsapp }}{{ . }}{{ end }}" class="whatsapp-icon" aria-label="share on Whatsapp" target="_blank">
     <img src="/svg/whatsapp.svg" alt="Whatsapp" width="32px" height="32px" srcset=""/>
   </a>
   
