@@ -4,7 +4,7 @@
 
 <div id="sharing">
 
-  <a data-href="https://www.kausikdas.com{{ .URL }}" href="https://www.facebook.com/dialog/share?app_id=1639470196142396&href={{ $url }}&amp;src=sdkpreparse&display=page" class="facebook-icon" aria-label="share on Facebook" target="_blank">
+  <a data-href="https://www.kausikdas.com{{ .URL }}" href="https://www.facebook.com/dialog/share?app_id=1639470196142396&href={{ $url }}&amp;src=sdkpreparse&display=page&title={{ $title }}%20by%20@ikausik" class="facebook-icon" aria-label="share on Facebook" target="_blank">
     <img src="/svg/facebook.svg" alt="Facebook" width="32px" height="32px" srcset=""/>
   </a>
 
@@ -12,7 +12,7 @@
     <img src="/svg/twitter.svg" alt="Twitter" width="32px" height="32px" srcset=""/>
   </a>
   
-  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ $url }}" class="linkedin-icon" aria-label="share on Linkedin" target="_blank">
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ $url }}&title={{ $title }}&source=https://www.kausikdas.com" class="linkedin-icon" aria-label="share on Linkedin" target="_blank">
     <img src="/svg/linkedin.svg" alt="Linkedin" width="32px" height="32px" srcset=""/>
   </a>
   

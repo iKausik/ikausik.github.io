@@ -987,6 +987,28 @@ a.btn {
 }
 
 /* subscribe form */
+.back-disable {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: var(--bg-color);
+  opacity: 0.9;
+  z-index: 5;
+  display: none;
+}
+.popup-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  text-align: center;
+  background-color: solid var(--bg-color);
+  color: var(--heading-color);
+  display: block;
+  position: relative;
+  top: 20%;
+  box-shadow: 5px 5px var(--body-color);
+  margin: auto;
+}
 .subs {
   text-align: center;
 }
@@ -1000,7 +1022,17 @@ a.btn {
   font-size: 14px;
   border: 2px solid #000000;
 }
-.subs button {
+.sub-popup-btn {
+  width: 100%;
+  text-align: center;
+}
+.close-btn {
+  text-align: right;
+  padding: 5px;
+  cursor: pointer;
+  font-size: var(--bg-color);
+}
+.subs button, .goto-popup {
   font-size: 14px;
   padding: 5px 14px;
   outline: none;

@@ -18,13 +18,11 @@
         {{ end }}
     </ul>
     <br>
-    <form action="" method="POST" class="subs">
-        <label for="email">Subscribe to our email newsletter</label>
-        <br><br>
-        <input type="email" name="email" id="email" placeholder="Email Address"/>
-        <br>
-        <button type="submit">Yes I'm in</button>
-    </form>
+
+    <div class="sub-popup-btn" onclick="openForm()">
+        <button class="goto-popup">Subscribe</button>
+    </div>
+    
     <div class="footer">
         <div class="by_farbox">&copy; {{ .Site.Params.author }} {{ now.Format "2006"}} </div>
     </div>

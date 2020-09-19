@@ -21,7 +21,7 @@ profilePicture = "images/profile.jpeg"
 keywords = ["Kausik Das", "Kausik", "software developer", "web developer", "freelancer", "saas developer", "programming", "python", "open source"]
 favicon = "favicons/"
 customCss = []
-customJs = []
+customJs = ["js/popup-form.js"]
 mainSections = ["blog"]
 images = []
 # Google Site Verification
