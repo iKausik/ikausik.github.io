@@ -13,6 +13,7 @@
   --blockquote-text-color: #858585;
   --blockquote-border-color: #dfe2e5;
   --hover-link-color: #3333ff;
+  --border-color-mobile: #f2f2f2;
   scroll-padding-top: 100px;
 }
 
@@ -29,6 +30,7 @@ html[data-theme='dark'] {
   --blockquote-text-color: #808080;
   --blockquote-border-color: #424242;
   --hover-link-color: #3333ff;
+  --border-color-mobile: #000000;
 }
 
 html {
@@ -820,6 +822,9 @@ a.btn {
 }
 
 @media screen and (max-width: 960px) {
+  .page-top {
+    border-bottom: 1px solid var(--border-color-mobile);
+  }
   .sidebar {
     width: 100%;
     position: absolute;
@@ -848,7 +853,7 @@ a.btn {
   }
 
   .content {
-    margin-top: 550px;
+    margin-top: 450px;
     width: 100%;
     z-index: 2;
     position: absolute;
@@ -1048,7 +1053,7 @@ a.btn {
   padding: 10px 20px 10px 0;
 }
 .share-btn a {
-  margin: 5px 10px 5px 0;
+  margin: 5px 10px 10px 0;
 }
 
 /* Mobile Footer
