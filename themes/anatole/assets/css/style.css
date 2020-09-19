@@ -992,6 +992,16 @@ a.btn {
 }
 
 /* subscribe form */
+.popup-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
 .back-disable {
   width: 100%;
   height: 100%;
@@ -999,20 +1009,18 @@ a.btn {
   background-color: var(--bg-color);
   opacity: 0.9;
   z-index: 5;
-  display: none;
 }
 .popup-form {
   width: 300px;
   padding: 20px;
   border: 1px solid var(--border-color);
   text-align: center;
-  background-color: solid var(--bg-color);
+  background-color: var(--bg-color);
   color: var(--heading-color);
-  display: block;
-  position: relative;
+  position: fixed;
   top: 20%;
   box-shadow: 5px 5px var(--body-color);
-  margin: auto;
+  z-index: 6;
 }
 .subs {
   text-align: center;
