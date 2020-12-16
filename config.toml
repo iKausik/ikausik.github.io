@@ -16,9 +16,9 @@ enableRobotsTXT = true
 [params]
 title = "Kausik Das"
 author = "Kausik Das"
-description = "Full-Stack Web & Software Developer"
+description = "Full-Stack Developer"
 profilePicture = "images/profile.jpg"
-keywords = ["Kausik Das", "Kausik", "software developer", "web developer", "freelancer", "saas developer", "programming", "python", "open source"]
+keywords = ["Kausik Das", "Kausik", "software developer", "web developer", "freelancer", "saas developer", "software engineer", "full stack engineer", "full stack developer", "programming", "python", "open source"]
 favicon = "favicons/"
 customCss = []
 customJs = ["js/popup-form.js"]
