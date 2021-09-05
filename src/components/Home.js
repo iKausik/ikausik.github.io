@@ -6,11 +6,11 @@ import MobileHome from "./mobile/MobileHome"
 const Home = () => {
     return (
         <>
-          <div>
+          <div className="mobile-hide">
             <DesktopHome />
           </div>
           
-          <div>
+          <div className="desktop-hide">
             <MobileHome />
           </div>
         </>
