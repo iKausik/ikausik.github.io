@@ -1,5 +1,5 @@
 import React from "react";
-import { IconButton } from "@material-ui/core";
+import { IconButton, Button } from "@material-ui/core";
 import {
   LinkedIn,
   Twitter,
@@ -190,25 +190,316 @@ const SinglePage = () => {
         <h1>My Work</h1>
         <div className="container">
           <div className="project">
-            <img src={Project1} alt="SneakShop" width="100%" />
+            <img src={Project1} alt="SneakShop" width="100%" height="auto" />
+            <div className="hoverLayer"></div>
+            <div className="buttonLayer">
+              <a
+                href="https://nike-sneakshop.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#ffcc00",
+                    color: "#000000",
+                    fontSize: "0.9em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  See Live
+                </Button>
+              </a>
+              <br />
+              <br />
+              <a
+                href="https://github.com/iKausik/nike-shop-rebuild-frontend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#0099ff",
+                    color: "#ffffff",
+                    fontSize: "0.7em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Frontend Source Code
+                </Button>
+              </a>
+              <br />
+              <br />
+              <a
+                href="https://github.com/iKausik/nike-shop-rebuild-backend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#0099ff",
+                    color: "#ffffff",
+                    fontSize: "0.7em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Backend Source Code
+                </Button>
+              </a>
+            </div>
           </div>
           <div className="project">
-            <img src={Project2} alt="SneakShop" width="100%" />
+            <img src={Project2} alt="SneakShop" width="100%" height="auto" />
+            <div className="hoverLayer"></div>
+            <div className="buttonLayer">
+              <a
+                href="https://live-crypto-watch.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#ffcc00",
+                    color: "#000000",
+                    fontSize: "0.9em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  See Live
+                </Button>
+              </a>
+              <br />
+              <br />
+              <a
+                href="https://github.com/iKausik/live-crypto-watch"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#0099ff",
+                    color: "#ffffff",
+                    fontSize: "0.7em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Source Code
+                </Button>
+              </a>
+            </div>
           </div>
           <div className="project">
-            <img src={Project3} alt="SneakShop" width="100%" />
+            <img src={Project3} alt="SneakShop" width="100%" height="auto" />
+            <div className="hoverLayer"></div>
+            <div className="buttonLayer">
+              <a
+                href="https://kdintelligent.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#ffcc00",
+                    color: "#000000",
+                    fontSize: "0.9em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  See Live
+                </Button>
+              </a>
+              <br />
+              <br />
+              <a
+                href="https://github.com/iKausik/kdintelligent-agency-website"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#0099ff",
+                    color: "#ffffff",
+                    fontSize: "0.7em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Source Code
+                </Button>
+              </a>
+            </div>
           </div>
           <div className="project">
-            <img src={Project4} alt="SneakShop" width="100%" />
+            <img src={Project4} alt="SneakShop" width="100%" height="auto" />
+            <div className="hoverLayer"></div>
+            <div className="buttonLayer">
+              <a
+                href="https://www.figma.com/file/4RvQQgD2tc2Ev7gk498jJ6/Property-Listing-Website-Marketplace?node-id=0%3A1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#ffcc00",
+                    color: "#000000",
+                    fontSize: "0.9em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  See Design
+                </Button>
+              </a>
+              {/* <br />
+              <br /> */}
+              {/* <Button
+                variant="contained"
+                style={{
+                  borderRadius: "5px",
+                  backgroundColor: "#0099ff",
+                  color: "#ffffff",
+                  fontSize: "0.7em",
+                  fontWeight: "bold",
+                }}
+              >
+                Source Code
+              </Button> */}
+            </div>
           </div>
           <div className="project">
-            <img src={Project5} alt="SneakShop" width="100%" />
+            <img src={Project5} alt="SneakShop" width="100%" height="auto" />
+            <div className="hoverLayer"></div>
+            <div className="buttonLayer">
+              <a
+                href="https://www.figma.com/file/dl5s8IPyLR0SQiha7wNSDu/Food-Ordering-Web-App-PWA"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#ffcc00",
+                    color: "#000000",
+                    fontSize: "0.9em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  See Design
+                </Button>
+              </a>
+              {/* <br />
+              <br /> */}
+              {/* <Button
+                variant="contained"
+                style={{
+                  borderRadius: "5px",
+                  backgroundColor: "#0099ff",
+                  color: "#ffffff",
+                  fontSize: "0.7em",
+                  fontWeight: "bold",
+                }}
+              >
+                Source Code
+              </Button> */}
+            </div>
           </div>
           <div className="project">
-            <img src={Project6} alt="SneakShop" width="100%" />
+            <img src={Project6} alt="SneakShop" width="100%" height="auto" />
+            <div className="hoverLayer"></div>
+            <div className="buttonLayer">
+              <a href="/">
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#ffcc00",
+                    color: "#000000",
+                    fontSize: "0.9em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  See Live
+                </Button>
+              </a>
+              <br />
+              <br />
+              <a
+                href="https://github.com/iKausik/ikausik.github.io"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#0099ff",
+                    color: "#ffffff",
+                    fontSize: "0.7em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Source Code
+                </Button>
+              </a>
+            </div>
           </div>
           <div className="project">
-            <img src={Project7} alt="SneakShop" width="100%" />
+            <img src={Project7} alt="SneakShop" width="100%" height="auto" />
+            <div className="hoverLayer"></div>
+            <div className="buttonLayer">
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=KausikDas.theme-jupiter"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#ffcc00",
+                    color: "#000000",
+                    fontSize: "0.9em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Install Theme
+                </Button>
+              </a>
+              <br />
+              <br />
+              <a
+                href="https://github.com/iKausik/Jupiter-Theme-Official"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#0099ff",
+                    color: "#ffffff",
+                    fontSize: "0.7em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Source Code
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
