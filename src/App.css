@@ -14,12 +14,6 @@
   font-weight: 400;
 }
 
-.desktop-hide {
-  display: none;
-}
-.desktop-show {
-  display: block;
-}
 .main-container {
   width: 100%;
   display: flex;
@@ -37,7 +31,12 @@
   letter-spacing: 1px;
   /* border: 1px solid #000; */
 }
+.normal-text {
+  position: relative;
+  white-space: pre;
+}
 .hightlight-text {
+  position: absolute;
   color: #000;
 }
 
@@ -112,7 +111,7 @@ a {
   opacity: 0;
   visibility: hidden;
   position: absolute;
-  left: 13.8%;
+  /* left: 13.8%; */
 }
 
 .w1 {
@@ -172,11 +171,32 @@ a {
   }
 }
 
-@media only screen and (max-width: 740px) {
-  .mobile-hide {
-    display: none;
+@media only screen and (max-width: 940px) {
+  .main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
-  .mobile-show {
-    display: block;
+  .sidebar {
+    width: 100%;
+    line-height: 2.4em;
+    letter-spacing: 1px;
+    /* border: 1px solid #000; */
+  }
+  .main {
+    margin-top: 2em;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+  }
+  .project {
+    position: relative;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    /* border: 1px solid #000; */
   }
 }

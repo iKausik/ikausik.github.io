@@ -45,9 +45,12 @@ const SinglePage = () => {
         </div>
 
         <h2>
-          Hi, <br />
-          My name is <span className="hightlight-text">Kausik Das.</span> <br />
-          I build for the{" "}
+          <span className="normal-text">
+            Hi, <br />
+            My name is{" "}
+          </span>
+          <span className="hightlight-text"> Kausik Das.</span> <br />
+          <span className="normal-text">I build for the </span>{" "}
           <span className="hightlight-text">
             <span class="word w1">Web.</span>
             <span class="word w2">Frontend.</span>
