@@ -231,7 +231,7 @@ const SinglePage = () => {
                     fontWeight: "bold",
                   }}
                 >
-                  Frontend Source Code
+                  Frontend Code
                 </Button>
               </a>
               <br />
@@ -251,7 +251,7 @@ const SinglePage = () => {
                     fontWeight: "bold",
                   }}
                 >
-                  Backend Source Code
+                  Backend Code
                 </Button>
               </a>
             </div>
