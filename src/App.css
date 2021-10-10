@@ -1,15 +1,74 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("./fonts/Roboto/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("./fonts/Roboto/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("./fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
 .desktop-hide {
-    display: none;
+  display: none;
 }
 .desktop-show {
-    display: block;
+  display: block;
+}
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto-Regular";
+}
+.sidebar {
+  width: 50%;
+  margin-right: 10px;
+  text-align: left;
+  padding: 10px;
+  font-family: "Roboto-Bold";
+  color: #696363;
+  line-height: 2.4em;
+  letter-spacing: 1px;
+  /* border: 1px solid #000; */
+}
+.hightlight-text {
+  color: #000;
+}
+
+.main {
+  width: 100%;
+  /* border: 1px solid #000; */
+}
+.main h2 {
+  font-family: "Roboto-Bold";
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.project {
+  width: 30%;
+  height: 5em;
+  background-color: antiquewhite;
+  margin: 5px;
+  text-align: center;
+  /* border: 1px solid #000; */
 }
 
 @media only screen and (max-width: 740px) {
-    .mobile-hide {
-        display: none;
-    }
-    .mobile-show {
-        display: block;
-    }
+  .mobile-hide {
+    display: none;
+  }
+  .mobile-show {
+    display: block;
+  }
 }

@@ -1,14 +1,15 @@
-import React from "react"
+import React from "react";
 
-import './App.css';
-import Home from "./components/Home"
+import "./App.css";
+// import Home from "./components/Home";
+import SinglePage from "./components/SinglePage";
 
 const App = () => {
   return (
     <div className="App">
-      <Home/>
+      <SinglePage />
     </div>
   );
-}
+};
 
 export default App;
