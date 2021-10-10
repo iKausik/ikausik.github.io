@@ -19,16 +19,40 @@ import Sass from "../assets/tech/sass.svg";
 import Git from "../assets/tech/git.svg";
 import Terminal from "../assets/tech/terminal.svg";
 
+// Projects Image
+import Project1 from "../assets/projects/project-a.png";
+import Project2 from "../assets/projects/project-b.png";
+import Project3 from "../assets/projects/project-c.png";
+import Project4 from "../assets/projects/project-d.png";
+import Project5 from "../assets/projects/project-e.png";
+import Project6 from "../assets/projects/project-f.png";
+import Project7 from "../assets/projects/project-g.png";
+
+import ProfilePic from "../assets/ProfilePic.jpg";
+
 const SinglePage = () => {
   return (
     <div className="main-container">
       <div className="sidebar">
-        <img src="/profilePic.jpg" alt="" />
+        <div className="ProfilePic">
+          <img
+            alt="Kausik"
+            src={ProfilePic}
+            width="100%"
+            height="100%"
+            // sx={{ width: 112, height: 112 }}
+          />
+        </div>
 
         <h2>
           Hi, <br />
           My name is <span className="hightlight-text">Kausik Das.</span> <br />
-          I build for the <span className="hightlight-text">Web.</span>
+          I build for the{" "}
+          <span className="hightlight-text">
+            <span class="word w1">Web.</span>
+            <span class="word w2">Frontend.</span>
+            <span class="word w3">Backend.</span>
+          </span>
         </h2>
 
         <div className="social-icons">
@@ -89,7 +113,7 @@ const SinglePage = () => {
           <img
             src={ReactSVG}
             alt="React"
-            title="React"
+            title="React.js"
             width="30"
             height="30"
             style={{ margin: "10px" }}
@@ -97,7 +121,7 @@ const SinglePage = () => {
           <img
             src={Node}
             alt="Node"
-            title="NodeJS"
+            title="Node.js"
             width="30"
             height="30"
             style={{ margin: "10px" }}
@@ -105,7 +129,7 @@ const SinglePage = () => {
           <img
             src={Express}
             alt="Express"
-            title="ExpressJS"
+            title="Express.js"
             width="30"
             height="30"
             style={{ margin: "10px" }}
@@ -165,12 +189,27 @@ const SinglePage = () => {
       <div className="main">
         <h1>My Work</h1>
         <div className="container">
-          <div className="project">project 1</div>
-          <div className="project">project 2</div>
-          <div className="project">project 3</div>
-          <div className="project">project 4</div>
-          <div className="project">project 5</div>
-          <div className="project">project 6</div>
+          <div className="project">
+            <img src={Project1} alt="SneakShop" width="100%" />
+          </div>
+          <div className="project">
+            <img src={Project2} alt="SneakShop" width="100%" />
+          </div>
+          <div className="project">
+            <img src={Project3} alt="SneakShop" width="100%" />
+          </div>
+          <div className="project">
+            <img src={Project4} alt="SneakShop" width="100%" />
+          </div>
+          <div className="project">
+            <img src={Project5} alt="SneakShop" width="100%" />
+          </div>
+          <div className="project">
+            <img src={Project6} alt="SneakShop" width="100%" />
+          </div>
+          <div className="project">
+            <img src={Project7} alt="SneakShop" width="100%" />
+          </div>
         </div>
       </div>
     </div>

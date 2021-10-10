@@ -53,15 +53,89 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 10px;
+  /* padding: 10px; */
 }
 .project {
-  width: 30%;
-  height: 5em;
-  background-color: antiquewhite;
-  margin: 5px;
+  width: 40%;
+  /* height: 5em; */
+  /* background-color: antiquewhite; */
+  margin: 10px;
   text-align: center;
   /* border: 1px solid #000; */
+}
+.ProfilePic {
+  width: 6em;
+  height: 6em;
+  border-radius: 50px;
+  /* border: 1px solid #000; */
+}
+.ProfilePic img {
+  border-radius: 50px;
+}
+
+/* WORD ANIMATION */
+.word {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  left: 13.8%;
+}
+
+.w1 {
+  animation: w1anim 10s infinite;
+}
+
+.w2 {
+  animation: w2anim 10s infinite;
+}
+
+.w3 {
+  animation: w3anim 10s infinite;
+}
+
+@keyframes w1anim {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  3% {
+    opacity: 1;
+    visibility: visible;
+  }
+  33% {
+    opacity: 0.1;
+    visibility: hidden;
+  }
+}
+
+@keyframes w2anim {
+  33% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  36% {
+    opacity: 1;
+    visibility: visible;
+  }
+  60% {
+    opacity: 0.1;
+    visibility: hidden;
+  }
+}
+
+@keyframes w3anim {
+  60% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  63% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0.1;
+    visibility: hidden;
+  }
 }
 
 @media only screen and (max-width: 740px) {
