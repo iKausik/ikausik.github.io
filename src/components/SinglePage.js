@@ -28,7 +28,7 @@ import Project5 from "../assets/projects/project-e.png";
 import Project6 from "../assets/projects/project-f.png";
 import Project7 from "../assets/projects/project-g.png";
 
-import ProfilePic from "../assets/ProfilePic.jpg";
+import ProfilePic from "../assets/ProfilePic.png";
 
 const SinglePage = () => {
   return (
