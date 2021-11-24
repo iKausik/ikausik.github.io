@@ -197,7 +197,7 @@ const SinglePage = () => {
             <div className="hoverLayer"></div>
             <div className="buttonLayer">
               <a
-                href="https://nike-sneakshop.netlify.app/"
+                href="https://nike-sneakshop.netlify.app/shop/1"
                 target="_blank"
                 rel="noreferrer"
               >
