@@ -76,7 +76,7 @@ const SinglePage = () => {
           </a>
 
           <a
-            href="https://twitter.com/kausik47"
+            href="https://twitter.com/ikausik_"
             target="_blank"
             rel="noreferrer"
           >
