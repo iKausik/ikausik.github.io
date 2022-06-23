@@ -27,6 +27,8 @@ import Project4 from "../assets/projects/project-d.png";
 import Project5 from "../assets/projects/project-e.png";
 import Project6 from "../assets/projects/project-f.png";
 import Project7 from "../assets/projects/project-g.png";
+import Project8 from "../assets/projects/web3-1.png";
+import Project9 from "../assets/projects/web3-2.png";
 
 import ProfilePic from "../assets/ProfilePic.jpg";
 
@@ -192,6 +194,134 @@ const SinglePage = () => {
       <div className="main">
         <h1>My Work</h1>
         <div className="container">
+          <div className="project">
+            <img src={Project8} alt="SharedWallet" width="100%" height="auto" />
+            <div className="hoverLayer"></div>
+            <div className="buttonLayer">
+              <a
+                href="https://sharedwallet-dapp.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#ffcc00",
+                    color: "#000000",
+                    fontSize: "0.9em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  See Live
+                </Button>
+              </a>
+              <br />
+              <br />
+              <a
+                href="https://github.com/iKausik/SharedWallet-DApp"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#0099ff",
+                    color: "#ffffff",
+                    fontSize: "0.7em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  DApp Frontend Code
+                </Button>
+              </a>
+              <br />
+              <br />
+              <a
+                href="https://github.com/iKausik/SharedWallet-Smart-Contract"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#0099ff",
+                    color: "#ffffff",
+                    fontSize: "0.7em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Smart Contract Code
+                </Button>
+              </a>
+            </div>
+          </div>
+          <div className="project">
+            <img src={Project9} alt="PandaCoin" width="100%" height="auto" />
+            <div className="hoverLayer"></div>
+            <div className="buttonLayer">
+              <a
+                href="https://pandacoin.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#ffcc00",
+                    color: "#000000",
+                    fontSize: "0.9em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  See Live
+                </Button>
+              </a>
+              <br />
+              <br />
+              <a
+                href="https://github.com/iKausik/panda-coin-DApp"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#0099ff",
+                    color: "#ffffff",
+                    fontSize: "0.7em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  DApp Frontend Code
+                </Button>
+              </a>
+              <br />
+              <br />
+              <a
+                href="https://github.com/iKausik/panda-coin-ERC20"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="contained"
+                  style={{
+                    borderRadius: "5px",
+                    backgroundColor: "#0099ff",
+                    color: "#ffffff",
+                    fontSize: "0.7em",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Smart Contract Code
+                </Button>
+              </a>
+            </div>
+          </div>
           <div className="project">
             <img src={Project1} alt="SneakShop" width="100%" height="auto" />
             <div className="hoverLayer"></div>
