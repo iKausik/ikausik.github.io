@@ -8,14 +8,14 @@ import {
   Email,
 } from "@material-ui/icons";
 
+import Ethereum from "../assets/tech/ethereum.svg";
+import Solidity from "../assets/tech/solidity.svg";
+import TypeScript from "../assets/tech/typescript.svg";
 import JavaScript from "../assets/tech/javascript.svg";
-import ReactSVG from "../assets/tech/react.svg";
+import Next from "../assets/tech/next-js.svg";
 import Node from "../assets/tech/node-js-logo.svg";
-import Express from "../assets/tech/express.svg";
 import PostgreSQL from "../assets/tech/postgresql.svg";
-import HTML from "../assets/tech/html.svg";
-import CSS from "../assets/tech/css.svg";
-import Sass from "../assets/tech/sass.svg";
+import Tailwindcss from "../assets/tech/tailwindcss.svg";
 import Git from "../assets/tech/git.svg";
 import Terminal from "../assets/tech/terminal.svg";
 
@@ -108,17 +108,33 @@ const SinglePage = () => {
         <div className="tech-stack" style={{ width: "fit-content" }}>
           <hr />
           <img
-            src={JavaScript}
-            alt="JavaScipt"
-            title="JavaScript"
+            src={Ethereum}
+            alt="Ethereum"
+            title="Ethereum"
+            width="35"
+            height="35"
+            style={{ margin: "10px" }}
+          />
+          <img
+            src={Solidity}
+            alt="Solidity"
+            title="Solidity"
             width="30"
             height="30"
             style={{ margin: "10px" }}
           />
           <img
-            src={ReactSVG}
-            alt="React"
-            title="React.js"
+            src={TypeScript}
+            alt="TypeScipt"
+            title="TypeScipt"
+            width="30"
+            height="30"
+            style={{ margin: "10px" }}
+          />
+          <img
+            src={Next}
+            alt="Next"
+            title="Next.js"
             width="30"
             height="30"
             style={{ margin: "10px" }}
@@ -131,10 +147,11 @@ const SinglePage = () => {
             height="30"
             style={{ margin: "10px" }}
           />
+          <br />
           <img
-            src={Express}
-            alt="Express"
-            title="Express.js"
+            src={JavaScript}
+            alt="JavaScipt"
+            title="JavaScript"
             width="30"
             height="30"
             style={{ margin: "10px" }}
@@ -147,27 +164,10 @@ const SinglePage = () => {
             height="30"
             style={{ margin: "10px" }}
           />
-          <br />
           <img
-            src={HTML}
-            alt="HTML"
-            title="HTML"
-            width="30"
-            height="30"
-            style={{ margin: "10px" }}
-          />
-          <img
-            src={CSS}
-            alt="CSS"
-            title="CSS"
-            width="30"
-            height="30"
-            style={{ margin: "10px" }}
-          />
-          <img
-            src={Sass}
-            alt="Sass"
-            title="Sass"
+            src={Tailwindcss}
+            alt="Tailwindcss"
+            title="Tailwindcss"
             width="30"
             height="30"
             style={{ margin: "10px" }}
@@ -184,8 +184,8 @@ const SinglePage = () => {
             src={Terminal}
             alt="Terminal"
             title="Terminal"
-            width="30"
-            height="30"
+            width="35"
+            height="35"
             style={{ margin: "10px" }}
           />
         </div>
