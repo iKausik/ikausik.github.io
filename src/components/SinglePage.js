@@ -52,7 +52,7 @@ const SinglePage = () => {
           <span className="hightlight-text"> Kausik Das.</span> <br />
           <span className="normal-text">I build for the </span>{" "}
           <span className="hightlight-text">
-            <span class="word w1">Web.</span>
+            <span class="word w1">Web3.</span>
             <span class="word w2">Frontend.</span>
             <span class="word w3">Backend.</span>
           </span>
